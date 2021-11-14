@@ -8,12 +8,43 @@
     --second-white-color: #F5F4FA;
     --header-background-color: #ECECEC;
 }
-body {
-    width: 1200px;
+.body {
+    margin: 0;
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
     background-color: var(--white-color);
     color: var(--grey-color);
+}
+.header,
+.header-link,
+.header-link-current,
+.header-link-email,
+.header-link-tel,
+.hero,
+.hero-button,
+.hero-title,
+.about-us,
+.about-us-text,
+.about-us-title,
+.activities,
+.activities-list,
+.activities-title,
+.contacts-footeer-link,
+.contacts-footeer-link-mail,
+.contacts-footeer-link-tel,
+.contacts-footeer-list,
+.footer,
+.our-team,
+.our-team-list,
+.our-team-subtext,
+.our-team-text,
+.our-team-title,
+.project-list,
+.project-text,
+.project-title,
+.works-button,
+.works-list {
+     outline: 2px solid black;
 }
 .list, .list-about-us, 
 .activities-list, 
@@ -21,13 +52,21 @@ body {
 .contacts-footeer-list,
 .works-list,
 .project-list {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
 }
 .link {
     text-decoration: none;
 }
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .header {
-    background-color: var(--header-background-color);
+    background-color: var(--header-background-color);  
 }
 .header-link-logo {
     text-decoration: none;
@@ -92,6 +131,7 @@ body {
     background-color: var(--medium-light-grey-color);
 }
 .hero-title {
+    margin: 0 auto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -117,9 +157,11 @@ body {
 }
 .about-us,
 .activities {
+    margin: 0 auto;
     background-color: #E5E5E5; 
 }
 .about-us-title {
+    margin: 0 auto;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -127,11 +169,13 @@ body {
     color: var(--grey-color);
 }
 .about-us-text {
+    margin: 0 auto;
     font-size: 14px;
     line-height: 1.71;
     color: var(--light-grey-color);
 }
 .activities-title {
+    margin: 0 auto;
     font-weight: 700;
     font-size: 36px;
     text-align: center;
@@ -141,6 +185,7 @@ body {
     background-color: var(--second-white-color);
 }
 .our-team-title {
+    margin: 0 auto;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -148,12 +193,14 @@ body {
     color: var(--grey-color);
 }
 .our-team-text {
+    margin: 0 auto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     color: var(--grey-color);
 }
 .our-team-subtext {
+    margin: 0 auto;
     font-size: 16px;
     line-height: 1.19;
     color: var(--light-grey-color);
@@ -199,6 +246,7 @@ body {
     color: white;
 }
 .project-title {
+    margin: 0 auto;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -206,6 +254,7 @@ body {
     color: var(--grey-color);
     }
 .project-text {
+    margin: 0 auto;
     font-size: 16px;
     line-height: 1.87;
     color: var(--light-grey-color);
