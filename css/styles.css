@@ -8,7 +8,7 @@
     --second-white-color: #F5F4FA;
     --header-background-color: #ECECEC;
 }
-.body {
+body {
     margin: 0;
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
@@ -29,27 +29,30 @@
     text-decoration: none;
 }
 .container {
-    background-color: var(--header-background-color);
     width: 1230px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+.container-header {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
 }
-.container-hero,
-.container-footer {
+.hero,
+.footer {
     background-color: var(--medium-light-grey-color);
 }
 .container-hero,
 .container-about-us,
 .container-activities,
 .container-our-team {
-    width: 1230px;
     margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
+}
+.header {
+    background-color: var(--header-background-color);
+    border-bottom: 1px solid #ECECEC;  
 }
 .header-nav {
     display: flex;
@@ -194,10 +197,6 @@
     text-transform: uppercase;
     color: var(--grey-color);
 }
-.container-about-us,
-.container-activities {
-    background-color: #E5E5E5; 
-}
 .list-about-us {
     padding-top: 94px;
     width: calc((100% - 90) / 4);
@@ -237,7 +236,7 @@
 .activities-item:nth-child(3n) {
     margin-right: 0px;
 }
-.container-our-team {
+.our-team {
     background-color: var(--second-white-color);
 }
 .our-team-title {
@@ -279,7 +278,6 @@
     color: var(--light-grey-color);
 }
 .container-footer {
-    width: 1230px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -320,7 +318,6 @@
     color: rgba(255, 255, 255, 0.6);
 }
 .container-works {
-    width: 1230px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -361,7 +358,6 @@
     color: white;
 }
 .container-project {
-    width: 1230px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
