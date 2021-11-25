@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header class="header">
+    <header class="header section">
         <div class="container container-header">    
          <nav class="header-nav">
                 <a href class="header-link-logo">Web<span class="header-logo">Studio</span></a>
@@ -34,13 +34,13 @@
         </div>
     </header>
     <main>
-            <section class="hero">
+            <section class="hero section">
                 <div class=" container container-hero">
                     <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
                     <button class="hero-button" type="button">Заказать услугу</button>
                 </div>
             </section>    
-            <section class="about-us">
+            <section class="about-us section">
                 <div class=" container container-about-us">
                     <h2 hidden>о нас</h2>
                     <ul class="list-about-us">
@@ -66,7 +66,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="activities">
+            <section class="activities section">
                 <div class=" container container-activities">
                     <h2 class="activities-title">Чем мы занимаемся</h2>
                     <ul class="activities-list">
@@ -76,50 +76,67 @@
                     </ul>
                 </div>
             </section>
-            <section class="our-team">
+            <section class="our-team section">
                 <div class=" container container-our-team">
                     <h2 class="our-team-title">Наша команда</h2>
                     <ul class="our-team-list">
                         <div class="container-team">
                             <li class="our-team-item"><img src="./images/команда/img.jpg" alt="продакт дизайнер" width="270" height="260">
                             </li>
-                            <h3 class="our-team-text">Игорь Демьяненко</h3>
-                            <p lang="en" class="our-team-subtext">Product Designer</p>
+                            <div class="manager">
+                                <h3 class="our-team-text">Игорь Демьяненко</h3>
+                                <p lang="en" class="our-team-subtext">Product Designer</p>
+                            </div>
+                            
                         </div>
                         <div class="container-team">
                             <li class="our-team-item"><img src="./images/команда/img2.jpg" alt="фронт енд" width="270" height="260"></li>
-                            <h3 class="our-team-text">Ольга Репина</h3>
-                            <p lang="en" class="our-team-subtext">Frontend Developer</p>
+                            <div class="manager">
+                                <h3 class="our-team-text">Ольга Репина</h3>
+                                <p lang="en" class="our-team-subtext">Frontend Developer</p>
+                            </div>
+                            
                         </div>
                         <div class="container-team">
                             <li class="our-team-item"><img src="./images/команда/img3.jpg" alt="маркетолог" width="270" height="260"></li>
-                            <h3 class="our-team-text">Николай Тарасов</h3>
-                            <p lang="en" class="our-team-subtext">Marketingr</p>
+                            <div class="manager">
+                                <h3 class="our-team-text">Николай Тарасов</h3>
+                                <p lang="en" class="our-team-subtext">Marketingr</p>
+                            </div>
+                           
                         </div>
                         <div class="container-team">
                             <li class="our-team-item"><img src="./images/команда/img4.jpg" alt="дизайнер" width="270" height="260"></li>
-                            <h3 class="our-team-text">Михаил Ермаков</h3>
-                            <p lang="en" class="our-team-subtext">UI Designer</p>
+                            <div class="manager">
+                                <h3 class="our-team-text">Михаил Ермаков</h3>
+                                <p lang="en" class="our-team-subtext">UI Designer</p>
+                            </div>
+                           
                         </div>
                     </ul>
                 </div>
             </section>     
     </main>
-    <footer class="footer">
+    <footer class="footer section">
         <div class=" container container-footer">
-            <h2 hidden>контакты</h2>
-            <a href="" class="link footer-link-logo">Web<span class="footer-logo">Studio</span></a>
-            <address class="contacts-footeer">
-                <ul class="contacts-footeer-list">
-                    <li class="contacts-footeer-item"><a href="https://goo.gl/maps/gP2XYiVGheCRVnU2A" target="_blank"
-                            rel="noopener noreferrer" class="link contacts-footeer-link-adr">г. Киев, пр-т Леси Украинки, 26</a>
-                    </li>
-                    <li class="contacts-footeer-item"><a href="mailto:info@devstudio.com"
-                            class="link contacts-footeer-link-mail">info@devstudio.com</a></li>
-                    <li class="contacts-footeer-item"><a href="tel:+380961111111" class="link contacts-footeer-link-tel">+38 096 111
-                            11 11</a></li>
-                </ul>
-            </address>
+           <div class="logo">
+                <h2 hidden>контакты</h2>
+                <a href="" class="link footer-link-logo">Web<span class="footer-logo">Studio</span></a>
+           </div>
+            <div class="footer-address">
+                <address class="contacts-footeer">
+                    <ul class="contacts-footeer-list">
+                        <li class="contacts-footeer-item"><a href="https://goo.gl/maps/gP2XYiVGheCRVnU2A" target="_blank"
+                                rel="noopener noreferrer" class="link contacts-footeer-link-adr">г. Киев, пр-т Леси Украинки, 26</a>
+                        </li>
+                        <li class="contacts-footeer-item"><a href="mailto:info@devstudio.com"
+                                class="link contacts-footeer-link-mail">info@devstudio.com</a></li>
+                        <li class="contacts-footeer-item"><a href="tel:+380961111111" class="link contacts-footeer-link-tel">+38 096 111
+                                11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+            
         </div>
     </footer>
 </body>
