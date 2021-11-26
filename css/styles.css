@@ -29,8 +29,6 @@ body {
 }
 .section {
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -39,7 +37,9 @@ body {
     padding-top: 200px;
 }
 .container {
-    width: 1230px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .container-header {
     display: flex;
@@ -50,10 +50,15 @@ body {
     background-color: var(--medium-light-grey-color);
 }
 .header {
-    margin: 0 auto;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;  
+}
+.container-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;     
 }
 .header-nav {
     display: flex;
@@ -145,7 +150,11 @@ body {
 .header-link-current:current {
     color: var(--grey-color);
 }
-
+.container-hero {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;     
+}
 .hero-title {
     text-align: center;
     margin: 0 auto;
@@ -179,6 +188,11 @@ body {
     font-weight: bold;
     color: #FFFFFF;
 }
+.container-about-us {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;   
+}
 .about-us-title {
     margin-top: 0;
     margin-bottom: 10px;
@@ -205,6 +219,14 @@ body {
     line-height: 1.71;
     color: var(--light-grey-color);
 }
+.activities {
+    padding-top: 0px;
+}
+.container-activities {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;     
+}
 .activities-title {
     margin-top: 0;
     margin-bottom: 50px;
@@ -227,6 +249,11 @@ body {
 }
 .our-team {
     background-color: var(--second-white-color);
+}
+.container-our-team {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;  
 }
 .our-team-title {
     margin: 0 auto;
@@ -253,6 +280,7 @@ body {
 }
 .our-team-text {
     margin: 0 auto;
+    margin-bottom: 10px;
     text-align: center;
     font-weight: 500;
     font-size: 16px;
@@ -267,12 +295,14 @@ body {
     color: var(--light-grey-color);
 }
 .footer {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
     padding-bottom: 60px;
     padding-top: 60px;
     background-color: var(--medium-light-grey-color);
+}
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 .footer-link-logo {
     text-decoration: none;
@@ -288,6 +318,9 @@ body {
 }
 .logo {
     margin-bottom: 20px;
+}
+.contacts-footeer-item {
+    margin-bottom: 9px;
 }
 .contacts-footeer-link-adr {
     font-style: normal;
@@ -305,6 +338,8 @@ body {
 
 .container-works {
     margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
     display: flex;
     justify-content: center;
 }
