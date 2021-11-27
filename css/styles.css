@@ -62,7 +62,7 @@ body {
 }
 .header-nav {
     display: flex;
-    flex-direction: row;
+   align-items: center;
 }
 .header-link-logo {
     text-decoration: none;
@@ -251,15 +251,14 @@ body {
     background-color: var(--second-white-color);
 }
 .container-our-team {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
 .our-team-title {
     margin: 0 auto;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    align-items: center;
     text-align: center;
     margin-bottom: 50px;
     color: var(--grey-color);
@@ -274,7 +273,7 @@ body {
 .our-team-item:nth-child(4n) {
     margin-right: 0px;
 }
-.manager {
+.manager-card {
     padding-top: 30px;
     padding-bottom: 30px;
 }
